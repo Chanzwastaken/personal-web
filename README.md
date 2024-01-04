@@ -1,2 +1,2 @@
 # personal-web
-web
+This is my website for portfolio
