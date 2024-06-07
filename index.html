@@ -3,521 +3,731 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Personal Portofolio Website Template</title>
-    <link rel="stylesheet" href="style.css" />
-
-    <script
-      src="https://kit.fontawesome.com/4c92e4876a.js"
-      crossorigin="anonymous"
-    ></script>
+    <title>Chandra's Portfolio Website</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link href="style.css" rel="stylesheet" />
   </head>
   <body>
-    <div id="header">
-      <div class="container">
-        <nav>
-          <img src="images/Chanz..png" class="logo" />
-          <ul id="sidemenu">
-            <li><a href="#header" class="dashboard">Home</a></li>
-            <li><a href="#about" class="dashboard">About</a></li>
-            <!-- <li><a href="#services" class="dashboard">Service</a></li> -->
-            <li><a href="#portfolio" class="dashboard">Projects</a></li>
-            <li><a href="#contact" class="dashboard">Contact</a></li>
-            <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
-          </ul>
-          <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
-        </nav>
-        <div class="header-text">
-          <p>Undergraduate Student</p>
-          <h1>Hi, Im <span>Chandra</span><br />from Universitas Mercu Buana</h1>
-        </div>
-      </div>
-    </div>
-    <!-- -----------------about----------- -->
-    <div id="about">
-      <div class="container">
-        <div class="row">
-          <div class="about-col-1">
-            <img src="images/2.jpg" />
-          </div>
-          <div class="about-col-2">
-            <h1 class="sub-title">About Me</h1>
-            <p>
-              I am an active 3rd-year international student at Universitas Mercu
-              Buana, majoring in Informatics Engineering with a focus on Data
-              Science. Throughout my study, I have developed expertise in Data
-              Analytics, Machine Learning, and Data Visualization, using tools
-              such as Power BI, Tableau, Excel, Azure ML, and Python libraries.
-              I have gained valuable experience through my involvement in
-              projects and coursework, and I am passionate about leveraging data
-              to drive informed decision-making. In addition to my technical
-              skills, I possess strong communication abilities, particularly in
-              English. I am confident in my ability to effectively convey
-              complex ideas and concepts, both verbally and in writing. For the
-              present, I am focusing on my journey to find a higher opportunity
-              in the data science area by entry level internship program.
-            </p>
-
-            <div class="tab-titles">
-              <p class="tab-links active-link" onclick="opentab('skills')">
-                Skills
-              </p>
-              <p class="tab-links" onclick="opentab('experience')">
-                Experience
-              </p>
-              <p class="tab-links" onclick="opentab('education')">Education</p>
-            </div>
-            <div class="tab-contents active-tab" id="skills">
-              <ul>
-                <li>
-                  <span>Hard Skills</span><br />Python, SQL, Power BI, Tableau,
-                  Excel, Azure
-                </li>
-                <li>
-                  <span>Soft Skills</span><br />Analytical thinking,
-                  problem-solving, communication, curiosity, continuous
-                  learning, attention to detail, collaboration, ethical data
-                  handling, adaptability.
-                </li>
-                <li>
-                  <span>Language</span><br />Indonesian (Native), English (Upper
-                  Intermediate)
-                </li>
-              </ul>
-            </div>
-            <div class="tab-contents" id="experience">
-              <ul>
-                <li>
-                  <span
-                    >Laboratory Assistant (Data Science Specialist), Faculty of
-                    Computer Science Universitas Mercu Buana</span
-                  ><br />Feb 2024 - present
-                </li>
-                <li>
-                  <span
-                    >Business Intelligence Analyst, Rakamin Academy X Bank
-                    Muamalat (Project Based Internship)</span
-                  ><br />April 2024 - May 2024
-                </li>
-                <li>
-                  <span>GDSC Member, Google Developer Student Club UMB</span
-                  ><br />Nov 2023 - present
-                </li>
-              </ul>
-            </div>
-            <div class="tab-contents" id="education">
-              <ul>
-                <li>
-                  <span>Universitas Mercu Buana</span><br />Bachelor of
-                  Informatics Engineering International | CGPA : 3.85/4.00<br />2022
-                  - present
-                </li>
-                <li>
-                  <span>Universiti Malaysia Kelantan</span><br />Student
-                  Mobility, Data Science class | Grade : A <br />Oct 2023 - Feb
-                  2024
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- -------------certification-------------- -->
     <div class="container">
-      <h1 class="sub-title" style="margin: 10px">Certifications</h1>
-      <!-- Slideshow container -->
-      <div class="slideshow-container">
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-          <div class="numbertext">1 / 3</div>
-          <img
-            src="images/pl300.png"
-            style="width: 1000px; height: 600px; object-fit: cover"
-          />
-          <div class="text">
-            <a
-              href="https://learn.microsoft.com/api/credentials/share/en-us/MChandraAgoeng-5406/D0BCE7AA05936BB?sharingId=3B60CADED0F38DC9"
-              style="color: chartreuse"
-              >Visit Credential Link</a
-            >
-          </div>
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 3</div>
-          <img
-            src="images/dp100.png"
-            style="width: 1000px; height: 600px; object-fit: cover"
-          />
-          <div class="text">
-            <a
-              href="https://learn.microsoft.com/api/credentials/share/en-us/MChandraAgoeng-5406/E01ECB2DD5017887?sharingId=3B60CADED0F38DC9"
-              style="color: chartreuse"
-              >Visit Credential Link</a
-            >
-          </div>
-        </div>
-
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
-          <img
-            src="images/excel.png"
-            style="width: 1000px; height: 600px; object-fit: cover"
-          />
-          <div class="text">
-            <a
-              href="https://www.credly.com/badges/d07cba20-7368-49f9-86ab-7396337cf12e"
-              style="color: rgb(37, 56, 19)"
-              >Visit Credential Link</a
-            >
-          </div>
-        </div>
-
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-      </div>
-      <br />
-
-      <!-- The dots/circles -->
-      <div style="text-align: center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
-      </div>
-
-      <p style="margin: 30px">
-        List of all my certifications here :
-        <a
-          href="https://www.linkedin.com/in/chandets/details/certifications/"
-          style="color: chartreuse"
-          >LinkedIn Credentials</a
+      <!-- About Section -->
+      <section id="about" class="mt-5 about-section">
+        <h1 class="display-1">About</h1>
+        <img
+          src="images/about/1.jpg"
+          alt="Profile Picture"
+          class="img-fluid mx-auto d-block"
+          width="150"
+          height="150"
+        />
+        <p>
+          I am a 3rd-year international student studying Informatics Engineering
+          with a focus on Data Science at Universitas Mercu Buana. My expertise
+          lies in Data Analytics, Machine Learning, and Data Visualization,
+          using tools such as Power BI, Tableau, Excel, Azure ML, and Python
+          libraries. I have gained valuable experience through projects and
+          coursework, and I am passionate about utilizing data to drive informed
+          decision-making. Alongside my technical skills, I possess strong
+          communication abilities, particularly in English, allowing me to
+          effectively convey complex ideas verbally and in writing.
+        </p>
+        <a href="etc/CV_M.Chandra.pdf" download class="btn btn-primary"
+          >Download CV</a
         >
-      </p>
-    </div>
+      </section>
 
-    <!-- -------portfolio----- -->
-    <div id="portfolio">
-      <div class="container" >
-        <h1 class="sub-title">My Projects</h1>
-        <h3 class="sub2" style="margin-bottom: -30px">
-          Check out my projects throughout my study
-        </h3>
-        <div class="work-list">
-          <div class="work">
-            <img src="images/ds.png" />
-            <div class="layer">
-              <h3>Data Science Salaries Analysis and Visualization</h3>
-              <p>
-                This project analyzes and visualizes data science salaries from
-                2020 to 2022. It provides insights into average salaries based
-                on experience levels, employment types, distribution of company
-                sizes and locations, top employee residence locations, and a
-                geographic visualization of average salaries by country.
-              </p>
-              <a href="https://github.com/Chanzwastaken/data-science-salaries"
-                ><i class="fa-solid fa-link"></i
-              ></a>
+      <!-- Certifications Section -->
+      <section id="certifications" class="certifications-section py-5">
+        <div class="container">
+          <h1>Certifications</h1>
+          <ul
+            class="nav nav-tabs nav-underline mb-4 justify-content-center"
+            id="certificationsTab"
+            role="tablist"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                id="professional-tab"
+                data-toggle="tab"
+                href="#professional"
+                role="tab"
+                aria-controls="professional"
+                aria-selected="true"
+                >Professional</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                id="course-tab"
+                data-toggle="tab"
+                href="#course"
+                role="tab"
+                aria-controls="course"
+                aria-selected="false"
+                >Course</a
+              >
+            </li>
+          </ul>
+          <div class="tab-content" id="certificationsTabContent">
+            <!-- Professional Certifications -->
+            <div
+              class="tab-pane fade show active"
+              id="professional"
+              role="tabpanel"
+              aria-labelledby="professional-tab"
+            >
+              <div class="row">
+                <!-- Professional Certification 1 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card zoom">
+                    <img
+                      src="images/certifications/dp100.png"
+                      class="card-img-top"
+                      alt="Professional Certification 1"
+                    />
+                    <div class="card-body text-center">
+                      <a
+                        href="https://learn.microsoft.com/api/credentials/share/en-us/MChandraAgoeng-5406/E01ECB2DD5017887?sharingId=3B60CADED0F38DC9"
+                        class="card-link"
+                        >See Certification</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Professional Certification 2 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card zoom">
+                    <img
+                      src="images/certifications/pl300.png"
+                      class="card-img-top"
+                      alt="Professional Certification 1"
+                    />
+                    <div class="card-body text-center">
+                      <a
+                        href="https://learn.microsoft.com/api/credentials/share/en-us/MChandraAgoeng-5406/D0BCE7AA05936BB?sharingId=3B60CADED0F38DC9"
+                        class="card-link"
+                        >See Certification</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <!-- Professional Certification 3 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card zoom">
+                    <img
+                      src="images/certifications/karirnex.png"
+                      class="card-img-top"
+                      alt="Professional Certification 1"
+                    />
+                    <div class="card-body text-center">
+                      <a
+                        href="https://drive.google.com/file/d/13o35iZAYpc96ZGyn_mtXDU02JlRoTZsn/view?usp=drivesdk"
+                        class="card-link"
+                        >See Certification</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
-          <div class="work">
-            <img src="images/gdp.png" />
-            <div class="layer">
-              <h3>Gross Domestic Product (GDP) of Indonesia</h3>
-              <p>
-                The objective of this project is to analyze and present data
-                related to the Gross Domestic Product (GDP) of Indonesia at the
-                provincial level. The project aims to provide insights into the
-                distribution of GDP across provinces and identify the top
-                provinces with the highest GDP in billion Indonesian Rupiah
-                (IDR).
-              </p>
-              <a href="https://github.com/Chanzwastaken/indonesia-gdp"
-                ><i class="fa-solid fa-link"></i
-              ></a>
-            </div>
-          </div>
-          <div class="work">
-            <img src="images/london.png" />
-            <div class="layer">
-              <h3>London Bike Rides</h3>
-              <p>
-                This project focuses on analyzing and visualizing data related
-                to bike rides in London during a specific time period. The
-                project aims to provide insights into bike ride patterns and the
-                impact of weather conditions on bike usage.
-              </p>
-              <a href="https://github.com/Chanzwastaken/london-bikes"
-                ><i class="fa-solid fa-link"></i
-              ></a>
+            <!-- Course Certifications -->
+            <div
+              class="tab-pane fade"
+              id="course"
+              role="tabpanel"
+              aria-labelledby="course-tab"
+            >
+              <div class="row">
+                <!-- Course Certification 1 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card zoom">
+                    <img
+                      src="images/certifications/excelIBM.png"
+                      class="card-img-top"
+                      alt="Course Certification 1"
+                    />
+                    <div class="card-body text-center">
+                      <a
+                        href="https://www.credly.com/badges/d07cba20-7368-49f9-86ab-7396337cf12e"
+                        class="card-link"
+                        >See Certification</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- Course Certification 2 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card zoom">
+                    <img
+                      src="images/certifications/machinelearningdicoding.png"
+                      class="card-img-top"
+                      alt="Course Certification 2"
+                    />
+                    <div class="card-body text-center">
+                      <a
+                        href="https://www.dicoding.com/certificates/KEXL857W0ZG2"
+                        class="card-link"
+                        >See Certification</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- Course Certification 3 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card zoom">
+                    <img
+                      src="images/certifications/pythonDicoding.png"
+                      class="card-img-top"
+                      alt="Course Certification 3"
+                    />
+                    <div class="card-body text-center">
+                      <a
+                        href="https://www.dicoding.com/certificates/QLZ94LV9DP5D"
+                        class="card-link"
+                        >See Certification</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- Course Certification 4 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card zoom">
+                    <img
+                      src="images/certifications/talentaAI.png"
+                      class="card-img-top"
+                      alt="Course Certification 3"
+                    />
+                    <div class="card-body text-center">
+                      <a
+                        href="https://drive.google.com/file/d/1ts19nhysEQzOw1KlPE70qFcdas1dq3kw/view"
+                        class="card-link"
+                        >See Certification</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- Course Certification 5 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card zoom">
+                    <img
+                      src="images/certifications/adfo.png"
+                      class="card-img-top"
+                      alt="Course Certification 3"
+                    />
+                    <div class="card-body text-center">
+                      <a
+                        href="https://drive.google.com/file/d/15wdjpiadOkmQYQ1mFu5sR02y5ilkRk5Z/view"
+                        class="card-link"
+                        >See Certification</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- Course Certification 6 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card zoom">
+                    <img
+                      src="images/certifications/visualisasiDicoding.png"
+                      class="card-img-top"
+                      alt="Course Certification 3"
+                    />
+                    <div class="card-body text-center">
+                      <a
+                        href="https://www.dicoding.com/certificates/98XW2EWV0PM3"
+                        class="card-link"
+                        >See Certification</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- Course Certification 7 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card zoom">
+                    <img
+                      src="images/certifications/datafundamentalTalentaai.png"
+                      class="card-img-top"
+                      alt="Course Certification 3"
+                    />
+                    <div class="card-body text-center">
+                      <a
+                        href="https://drive.google.com/file/d/1YlHRBMnr3ead4hsnOqR0UKbScYo-pU_o/view"
+                        class="card-link"
+                        >See Certification</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- Course Certification 8 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card zoom">
+                    <img
+                      src="images/certifications/plsql.png"
+                      class="card-img-top"
+                      alt="Course Certification 3"
+                    />
+                    <div class="card-body text-center">
+                      <a
+                        href="https://drive.google.com/file/d/1gaviY-Qk6SyZ37k3-tdOvWAqZlARGDQU/view"
+                        class="card-link"
+                        >See Certification</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- Course Certification 9 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card zoom">
+                    <img
+                      src="images/certifications/mlpythonibm.png"
+                      class="card-img-top"
+                      alt="Course Certification 3"
+                    />
+                    <div class="card-body text-center">
+                      <a
+                        href="https://www.credly.com/badges/82ab465a-7dc6-485a-a635-77344ddaf8ec/public_url"
+                        class="card-link"
+                        >See Certification</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <!-- Course Certification 10 -->
+                <div class="col-md-4 mb-4">
+                  <div class="card zoom">
+                    <img
+                      src="images/certifications/IBMDataenterpreise.png"
+                      class="card-img-top"
+                      alt="Course Certification 3"
+                    />
+                    <div class="card-body text-center">
+                      <a
+                        href="https://www.credly.com/badges/c9a3f369-4268-4bf5-96a0-d125aee8b126/linked_in_profile"
+                        class="card-link"
+                        >See Certification</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        <div class="work-list">
-          <div class="work">
-            <img src="images/kmeans.png" />
-            <div class="layer">
-              <h3>
-                KNN and K-means Clustering for Data Science Salary Analysis
-              </h3>
-              <p>
-                The goal of this project is to analyze data science salaries
-                using K-nearest neighbors (KNN) and K-means clustering. By
-                applying these algorithms, we aim to gain insights into the
-                factors that influence salary levels
-              </p>
-              <a
-                href="https://github.com/Chanzwastaken/datascience-salaries_KNN_and_KMeansCluster"
-                ><i class="fa-solid fa-link"></i
-              ></a>
-            </div>
-          </div>
-          <div class="work">
-            <img src="images/travel.png" />
-            <div class="layer">
-              <h3>Travel Web Bootstrap</h3>
-              <p>This is part of my project during my study in my college.</p>
-              <a href="https://chanzwastaken.github.io/travel_web_bootstrap/"
-                ><i class="fa-solid fa-link"></i
-              ></a>
-            </div>
-          </div>
-          <div class="work">
-            <img src="images/work2.png" />
-            <div class="layer">
-              <h3>Ongkir Checker</h3>
-              <p>
-                A web-based program that enables you to effortlessly check
-                delivery costs within Indonesia.
-              </p>
-              <a href="https://github.com/Chanzwastaken/ongkir-checker"
-                ><i class="fa-solid fa-link"></i
-              ></a>
-            </div>
-          </div>
-          <div class="work">
-            <img src="images/pkm.png" />
-            <div class="layer">
-              <h3>MathAssist Prototype</h3>
-              <p>
-                A prototype application to helps student and teacher for easy
-                learning calculus. This project is part of my PKM(Student
-                Creativity Program).
-              </p>
-              <a
-                href="https://www.figma.com/file/4ZneTXsaXbZv2RmbnLkcyC/PKM?type=design&node-id=0%3A1&mode=design&t=jhGlBc9wZlQvJXZT-1"
-                ><i class="fa-solid fa-link"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-        <a href="https://github.com/Chanzwastaken?tab=repositories" class="btn"
-          >See more</a
-        >
-      </div>
-    </div>
+      </section>
 
-    <!-- ------------publications & articles------------ -->
-    <div id="publications">
-      <div class="container" style="margin-bottom: 100px;">
-        <h1 class="sub-title" style="margin: 10px">Publications & Articles</h1>
+      <!-- Projects Section -->
+      <section id="projects" class="projects-section">
+        <h1 class="border-bottom p-2">Projects</h1>
         <div class="row">
-          <div class="publication-card">
-            <img
-              src="images/publication.png"
-              alt="Publication 1"
-              class="publication-image"
-            />
-            <div class="publication-info">
-              <h3>
+          <!-- Project 1 -->
+          <div class="col-md-4">
+            <div class="card zoom">
+              <img
+                src="images/projects/dsSalariesDashboard.png"
+                class="card-img-top"
+                alt="Project 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Data Science Salaries Analysis and Visualization Dashboard
+                </h5>
+                <p class="card-text">
+                  This project analyzes and visualizes data science salaries
+                  from 2020 to 2022. It provides insights into average salaries
+                  based on experience levels, employment types, distribution of
+                  company sizes and locations, top employee residence locations,
+                  and a geographic visualization of average salaries by country.
+                </p>
+                <a
+                  href="https://github.com/Chanzwastaken/data-science-salaries"
+                  class="card-link"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="col-md-4">
+            <div class="card zoom">
+              <img
+                src="images/projects/GDP.png"
+                class="card-img-top"
+                alt="Project 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Gross Domestic Product (GDP) of Indonesia Dashboard
+                </h5>
+                <p class="card-text">
+                  This is a simple dashboard where the objective of this project
+                  is to analyze and present data related to the Gross Domestic
+                  Product (GDP) of Indonesia at the provincial level. The
+                  project aims to provide insights into the distribution of GDP
+                  across provinces and identify the top provinces with the
+                  highest GDP in billion Indonesian Rupiah (IDR).
+                </p>
+                <a
+                  href="https://github.com/Chanzwastaken/indonesia-gdp"
+                  class="card-link"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="col-md-4">
+            <div class="card zoom">
+              <img
+                src="images/projects/londonbikes.png"
+                class="card-img-top"
+                alt="Project 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">London Bike Rides Dashboard</h5>
+                <p class="card-text">
+                  This project focuses on analyzing and visualizing data related
+                  to bike rides in London during a specific time period. The
+                  project aims to provide insights into bike ride patterns and
+                  the impact of weather conditions on bike usage.
+                </p>
+                <a
+                  href="https://github.com/Chanzwastaken/london-bikes"
+                  class="card-link"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Project 4 -->
+          <div class="col-md-4">
+            <div class="card zoom">
+              <img
+                src="images/projects/kmeansDS.png"
+                class="card-img-top"
+                alt="Project 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  KNN and K-means Clustering for Data Science Salary Analysis
+                </h5>
+                <p class="card-text">
+                  The goal of this project is to analyze data science salaries
+                  using K-nearest neighbors (KNN) and K-means clustering. By
+                  applying these algorithms, we aim to gain insights into the
+                  factors that influence salary levels
+                </p>
+                <a
+                  href="https://github.com/Chanzwastaken/datascience-salaries_KNN_and_KMeansCluster"
+                  class="card-link"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Project 5 -->
+          <div class="col-md-4">
+            <div class="card zoom">
+              <img
+                src="images/projects/3.jpg"
+                class="card-img-top"
+                alt="Project 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">London Bike Rides Dashboard</h5>
+                <p class="card-text">
+                  This project focuses on analyzing and visualizing data related
+                  to bike rides in London during a specific time period. The
+                  project aims to provide insights into bike ride patterns and
+                  the impact of weather conditions on bike usage.
+                </p>
+                <a
+                  href="https://github.com/Chanzwastaken/london-bikes"
+                  class="card-link"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+          <!-- Project 3 -->
+          <div class="col-md-4">
+            <div class="card zoom">
+              <img
+                src="images/projects/3.jpg"
+                class="card-img-top"
+                alt="Project 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">London Bike Rides Dashboard</h5>
+                <p class="card-text">
+                  This project focuses on analyzing and visualizing data related
+                  to bike rides in London during a specific time period. The
+                  project aims to provide insights into bike ride patterns and
+                  the impact of weather conditions on bike usage.
+                </p>
+                <a
+                  href="https://github.com/Chanzwastaken/london-bikes"
+                  class="card-link"
+                  >View Project</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Blogs & Publications Section -->
+      <section id="blogs" class="blogs-section py-5">
+        <div class="container">
+          <h1 class="border-bottom p-2">Blogs & Publications</h1>
+          <div class="row mb-4">
+            <div class="col-md-2">
+              <img
+                src="images/blogs/public1.png"
+                class="img-fluid"
+                alt="Publication 1"
+              />
+            </div>
+            <div class="col-md-10">
+              <h4>
                 Leveraging Correlation and Clustering: An Exploration of Data
                 Scientist Salaries
-              </h3>
-              <p>Journal of Advanced Research in Computing and Applications</p>
-              <p>Published by: Akademia Baru Publishing (M) Sdn Bhd</p>
+              </h4>
+              <p>Published by AKADEMIA BARU PUBLISHING (M) SDN BHD</p>
               <p>
-                Link:
-                <a
-                  href="https://www.akademiabaru.com/submit/index.php/arca/article/view/5282"
-                  style="color: chartreuse"
-                  >Click Here</a
-                >
+                Author: Chandra Agoeng, Nurul Dini Faqriah Miza Azmi, Hakimah
+                Mat Harun, Nurzulaikha Abdullah, Wan Azani Mustafa, Fakhitah
+                Ridzuan
               </p>
-            </div>
-          </div>
-          <!-- <div class="publication-card">
-            <img
-              src="https://via.placeholder.com/350x200"
-              alt="Publication 2"
-              class="publication-image"
-            />
-            <div class="publication-info">
-              <h3>Title 2</h3>
-              <p>Author(s): Author 3, Author 4</p>
-              <p>Publication Date: Date 2</p>
-              <p>Link: <a href="link2">Link to Publication 2</a></p>
-            </div>
-          </div>
-          <div class="publication-card">
-            <img
-              src="https://via.placeholder.com/350x200"
-              alt="Publication 3"
-              class="publication-image"
-            />
-            <div class="publication-info">
-              <h3>Title 3</h3>
-              <p>Author(s): Author 5, Author 6</p>
-              <p>Publication Date: Date 3</p>
-              <p>Link: <a href="link3">Link to Publication 3</a></p>
-            </div>
-          </div> -->
-        </div>
-      </div>
-    </div>
-
-    <!-- ------------contact--------- -->
-    <div id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="contact-left">
-            <h1 class="sub-title">Contact Me</h1>
-            <p>
-              <i class="fa-solid fa-paper-plane"></i>chandraabdullah00@gmail.com
-            </p>
-            <p><i class="fa-solid fa-phone"></i>085335328320</p>
-            <div class="social-icon">
-              <!-- <a href=""><i class="fa-brands fa-facebook"></i></a> -->
-              <!-- <a href=""><i class="fa-brands fa-twitter-square"></i></a> -->
-              <a href="https://instagram.com/chandets_dra"
-                ><i class="fa-brands fa-instagram"></i
-              ></a>
-              <a href="https://www.linkedin.com/in/chandets"
-                ><i class="fa-brands fa-linkedin"></i
-              ></a>
-              <a href="https://github.com/Chanzwastaken"
-                ><i class="fa fa-github" aria-hidden="true"></i
-              ></a>
               <a
-                href="https://public.tableau.com/app/profile/m.chandra.agoeng.p/vizzes"
-                ><i class="fa fa-plus" aria-hidden="true"></i
-              ></a>
+                href="https://www.akademiabaru.com/submit/index.php/arca/article/view/5282"
+                class="card-link"
+                >Visit Website</a
+              >
             </div>
-            <a href="images/CV_M.Chandra.pdf" download class="btn btn2">Download CV</a>
           </div>
-          <div class="contact-right">
-            <form name="submit-to-google-sheet">
-              <input type="text" name="Name" placeholder="Name" required />
-              <input type="email" name="Email" placeholder="Email" required />
-              <textarea
-                name="Message"
-                rows="6"
-                placeholder="Message"
-              ></textarea>
-              <button type="submit" class="btn btn2">Submit</button>
-            </form>
-            <span id="msg"></span>
+          <div class="row mb-4">
+            <div class="col-md-2">
+              <img src="images/blogs/1.jpg" class="img-fluid" alt="Blog 1" />
+            </div>
+            <div class="col-md-10">
+              <h4>Blog 1</h4>
+              <p>Published by Medium</p>
+              <p>Description</p>
+              <a href="#" class="card-link">Visit Website</a>
+            </div>
+          </div>
+          <div class="row mb-4">
+            <div class="col-md-2">
+              <img src="images/blogs/1.jpg" class="img-fluid" alt="Blog 1" />
+            </div>
+            <div class="col-md-10">
+              <h4>Blog 1</h4>
+              <p>Published by Medium</p>
+              <p>Description</p>
+              <a href="#" class="card-link">Visit Website</a>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="copyright">
-        <p>Copyright © Chandra.</p>
-      </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="skills-section">
+        <h1 class="border-bottom p-2">Skills</h1>
+        <div class="row">
+          <!-- Skill 1 -->
+          <div class="col-md-3">
+            <div class="card zoom">
+              <img
+                src="images/skills/1.png"
+                class="card-img-top"
+                alt="Python"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Python</h5>
+              </div>
+            </div>
+          </div>
+          <!-- Skill 2 -->
+          <div class="col-md-3">
+            <div class="card zoom">
+              <img
+                src="images/skills/2.png"
+                class="card-img-top"
+                alt="Data Visualization"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Data Visualization</h5>
+              </div>
+            </div>
+          </div>
+          <!-- Skill 3 -->
+          <div class="col-md-3">
+            <div class="card zoom">
+              <img src="images/skills/3.png" class="card-img-top" alt="SQL" />
+              <div class="card-body">
+                <h5 class="card-title">SQL</h5>
+              </div>
+            </div>
+          </div>
+          <!-- Skill 4 -->
+          <div class="col-md-3">
+            <div class="card zoom">
+              <img
+                src="images/skills/4.png"
+                class="card-img-top"
+                alt="Data Storytelling"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Data Storytelling</h5>
+              </div>
+            </div>
+          </div>
+          <!-- Skill 5 -->
+          <div class="col-md-3">
+            <div class="card zoom">
+              <img
+                src="images/skills/excel.png"
+                class="card-img-top"
+                alt="Data Storytelling"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Microsoft Excel</h5>
+              </div>
+            </div>
+          </div>
+          <!-- Skill 6 -->
+          <div class="col-md-3">
+            <div class="card zoom">
+              <img
+                src="images/skills/powerbi.png"
+                class="card-img-top"
+                alt="Data Storytelling"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Power BI</h5>
+              </div>
+            </div>
+          </div>
+          <!-- Skill 7 -->
+          <div class="col-md-3">
+            <div class="card zoom">
+              <img
+                src="images/skills/tableau.png"
+                class="card-img-top"
+                alt="Data Storytelling"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Tableau</h5>
+              </div>
+            </div>
+          </div>
+          <!-- Skill 8 -->
+          <div class="col-md-3">
+            <div class="card zoom">
+              <img
+                src="images/skills/publicspeaking.png"
+                class="card-img-top"
+                alt="Data Storytelling"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Public Speaking</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-    <script></script>
 
-    <script>
-      //this is for the animated change tab link design
-      var tablinks = document.getElementsByClassName("tab-links");
-      var tabcontents = document.getElementsByClassName("tab-contents");
-      function opentab(tabname) {
-        for (tablink of tablinks) {
-          tablink.classList.remove("active-link");
-        }
-        for (tabcontent of tabcontents) {
-          tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-      }
-    </script>
+    <!-- Contact Me Section -->
+    <section
+      id="contact"
+      class="contact-me-section text-center text-white py-5"
+      style="background-color: #000"
+    >
+      <div class="container">
+        <h1>Contact Me</h1>
+        <div class="contact-info my-4">
+          <p>
+            <i class="bi bi-envelope"></i>
+            chandraabdullah00@gmail.com
+          </p>
+          <p><i class="bi bi-telephone"></i> +6285335328320</p>
+        </div>
+        <div class="social-icons my-4">
+          <a href="https://www.linkedin.com/in/chandets" class="mx-2"
+            ><img
+              src="icons/linkedin.png"
+              alt="LinkedIn Icon"
+              class="rounded-circle"
+              width="50"
+          /></a>
+          <a href="https://github.com/Chanzwastaken" class="mx-2"
+            ><img
+              src="icons/github.png"
+              alt="GitHub Icon"
+              class="rounded-circle"
+              width="50"
+          /></a>
+          <a href="#" class="mx-2"
+            ><img
+              src="icons/medium.png"
+              alt="Medium Icon"
+              class="rounded-circle"
+              width="50"
+          /></a>
+        </div>
+      </div>
+    </section>
 
-    <script>
-      var sidemenu = document.getElementById("sidemenu");
-      function openmenu() {
-        sidemenu.style.right = "0";
-      }
-      function closemenu() {
-        sidemenu.style.right = "-200px";
-      }
-    </script>
-    <script>
-      const scriptURL =
-        "https://script.google.com/macros/s/AKfycbwwTQBB8CGJIG2DDWyIDXJsnWg9GSgwppeGlfQHIx3gY0sZVdcI7JrtNdahV9D7OaHGcQ/exec";
-      const form = document.forms["submit-to-google-sheet"];
-      const msg = document.getElementById("msg");
+    <!-- Sticky Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#about">Chandra's Portfolio Website</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certifications">Certifications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-      form.addEventListener("submit", (e) => {
-        e.preventDefault();
-        fetch(scriptURL, { method: "POST", body: new FormData(form) })
-          .then((response) => {
-            msg.innerHTML = "Message sent successfully";
-            setTimeout(function () {
-              msg.innerHTML = "";
-            }, 5000);
-            form.reset();
-          })
-          .catch((error) => console.error("Error!", error.message));
-      });
-    </script>
-    <script>
-      let slideIndex = 1;
-      showSlides(slideIndex);
-      autoShowSlides();
-
-      // Next/previous controls
-      function plusSlides(n) {
-        showSlides((slideIndex += n));
-      }
-
-      // Thumbnail image controls
-      function currentSlide(n) {
-        showSlides((slideIndex = n));
-      }
-
-      function showSlides(n) {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        let dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {
-          slideIndex = 1;
-        }
-        if (n < 1) {
-          slideIndex = slides.length;
-        }
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-      }
-
-      function autoShowSlides() {
-        let i;
-        let slides = document.getElementsByClassName("mySlides");
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {
-          slideIndex = 1;
-        }
-        slides[slideIndex - 1].style.display = "block";
-        setTimeout(autoShowSlides, 3500); // Change image every 2 seconds
-      }
-    </script>
+    <!-- Bootstrap JS and dependencies (jQuery and Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.9.5/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   </body>
 </html>
