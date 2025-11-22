@@ -1,0 +1,18 @@
+export const coreSkills = [
+    { text: "Data Science", value: 100 },
+    { text: "Machine Learning", value: 90 },
+    { text: "Deep Learning", value: 85 },
+    { text: "Natural Language Processing", value: 85 },
+    { text: "Computer Vision", value: 80 },
+    { text: "Big Data", value: 75 },
+    { text: "Data Engineering", value: 70 },
+    { text: "Data Visualization", value: 80 },
+    { text: "Statistical Analysis", value: 85 },
+    { text: "Artificial Intelligence", value: 90 },
+    { text: "Predictive Modeling", value: 80 },
+    { text: "Cloud Computing", value: 70 },
+    { text: "MLOps", value: 65 },
+    { text: "Business Intelligence", value: 75 },
+    { text: "Python", value: 95 },
+    { text: "SQL", value: 85 },
+];
