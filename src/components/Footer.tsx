@@ -1,4 +1,4 @@
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
 
 export default function Footer() {
     return (
@@ -7,24 +7,21 @@ export default function Footer() {
                 <div className="flex flex-col md:flex-row justify-between items-center gap-6">
                     <div className="text-center md:text-left">
                         <h3 className="text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
-                            Portfolio
+                            Chanz's Portfolio Projects
                         </h3>
                         <p className="text-sm text-muted-foreground mt-2">
-                            Building digital experiences with code and creativity.
+                            Data is the new oil.
                         </p>
                     </div>
 
                     <div className="flex items-center gap-6">
-                        <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                        <a href="https://github.com/Chanzwastaken" className="text-muted-foreground hover:text-primary transition-colors">
                             <Github size={20} />
                         </a>
-                        <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
+                        <a href="https://www.linkedin.com/in/chandets/" className="text-muted-foreground hover:text-primary transition-colors">
                             <Linkedin size={20} />
                         </a>
-                        <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-                            <Twitter size={20} />
-                        </a>
-                        <a href="mailto:hello@example.com" className="text-muted-foreground hover:text-primary transition-colors">
+                        <a href="mailto:chandraabdullah00@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
                             <Mail size={20} />
                         </a>
                     </div>
