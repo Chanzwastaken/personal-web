@@ -3,7 +3,7 @@ import SkillCard from "@/components/SkillCard";
 import { skills } from "@/data/skills";
 
 export default function SkillsPage() {
-    const categories = ["Languages", "Machine Learning", "Data Engineering", "Visualization"];
+    const categories = ["Languages", "Machine Learning", "Data Engineering", "Visualization", "Tools"];
 
     return (
         <div>

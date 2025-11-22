@@ -22,5 +22,7 @@ export const skills: Skill[] = [
     { name: "Tableau", category: "Visualization", level: 85, logo: "https://static.cdnlogo.com/logos/t/73/tableau-software.svg" },
     { name: "Power BI", category: "Visualization", level: 80, logo: "https://cdn.worldvectorlogo.com/logos/power-bi.svg" },
     { name: "Matplotlib", category: "Visualization", level: 90, logo: "https://upload.wikimedia.org/wikipedia/commons/8/84/Matplotlib_icon.svg" },
-    { name: "D3.js", category: "Visualization", level: 60, logo: "https://cdn.simpleicons.org/d3" }
+    // Tools
+    { name: "Power Apps", category: "Tools", level: 85, logo: "https://upload.wikimedia.org/wikipedia/commons/6/6e/Powerapps-logo.svg" },
+    { name: "Power Automate", category: "Tools", level: 85, logo: "https://upload.wikimedia.org/wikipedia/commons/4/4d/Microsoft_Power_Automate.svg" }
 ];
