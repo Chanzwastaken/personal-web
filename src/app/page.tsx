@@ -38,7 +38,7 @@ export default function Home() {
                     className="relative z-10 space-y-6 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8"
                 >
                     <span className="px-4 py-2 rounded-full bg-white/5 border border-white/10 text-sm text-muted-foreground animate-fade-in">
-                        Data Analyst & Artificial Intelligence Enthusiast
+                        Data Analyst & AI Engineer
                     </span>
                     <h1 className="text-5xl md:text-7xl font-bold tracking-tight">
                         Chandra's <br />
