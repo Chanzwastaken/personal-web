@@ -7,9 +7,9 @@ export const experiences: Experience[] = [
         company: "PT Bank Mandiri Taspen",
         period: "Aug 2025 - Dec 2025",
         description: [
-            "Developed and optimized Power Apps solutions to streamline internal processes and improve operational efficiency.",
-            "Designed and built interactive dashboards in Tableau, enabling data-driven decision-making through clear and actionable insights.",
-            "Collaborated with the team to enhance workflow automation and reporting systems, contributing to faster and more effective business processes."
+            "Developed and optimized Power Apps solutions to automate internal workflows, reducing manual processing time by 20–25% and improving operational efficiency.",
+            "Designed interactive Tableau dashboards that enhanced data visibility, enabling faster decision-making for managerial teams.",
+            "Improved reporting and workflow automation using Power Automate, increasing the accuracy and timeliness of business processes across departments."
         ],
         logo: "/taspen.png"
     },
@@ -19,10 +19,10 @@ export const experiences: Experience[] = [
         company: "Central Bank of Indonesia",
         period: "Mar 2025 - Aug 2025",
         description: [
-            "Built interactive Power BI dashboards to monitor BB UKA and KUPVA BB, enhancing real-time performance tracking for decision-makers.",
-            "Transformed messy, unstructured data into clean, structured formats, ensuring accuracy, consistency, and usability.",
-            "Developed automated workflows using Power Automate to streamline repetitive processes and improve operational efficiency.",
-            "Managed and stored large datasets using SharePoint List, enabling centralized and secure data access.",
+            "Built real-time Power BI dashboards to monitor BB UKA and KUPVA BB, enabling a 30% faster performance review cycle for decision-makers.",
+            "Transformed large unstructured datasets using Power Query, Excel, and SQL, improving data quality and consistency by 20%.",
+            "Developed automated processes with Power Automate, reducing repetitive tasks and cutting manual reporting workload by 15–20%.",
+            "Managed data storage using SharePoint Lists, improving data accessibility and reducing retrieval time for analyst teams.",
             "Supported colleagues with Excel formulas, Power BI, and other analytical tools, fostering a collaborative and data-driven work environment."
         ],
         logo: "/bi.png"

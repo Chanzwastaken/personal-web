@@ -89,7 +89,9 @@ export default function AboutPage() {
                         </div>
                     </div>
                 </div>
-                <ScrollGesture />
+                <div className="absolute bottom-0 left-0 right-0 flex justify-center">
+                    <ScrollGesture />
+                </div>
             </SectionWrapper>
 
 
