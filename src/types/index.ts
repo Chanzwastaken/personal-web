@@ -4,7 +4,7 @@ export interface Project {
     description: string;
     longDescription?: string;
     image: string;
-    category: "Data Science" | "NLP" | "Computer Vision" | "AI Apps" | "Data Analysis" | "Data Visualization Dashboard" | "Others";
+    category: "Data Science" | "AI Apps" | "Dashboard" | "Others";
     features: string[];
     techStack: string[];
     links?: {

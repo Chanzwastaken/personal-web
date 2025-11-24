@@ -3,76 +3,84 @@ import { Project } from "@/types";
 export const projects: Project[] = [
     {
         id: "1",
-        title: "Project 1",
-        description: "A machine learning model to predict customer churn for a telecommunications company.",
-        longDescription: "Developed a predictive model using Random Forest and XGBoost to identify customers at risk of churning. The project involved extensive data cleaning, feature engineering, and hyperparameter tuning. The final model achieved an accuracy of 92% and helped the marketing team target retention campaigns effectively.",
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
-        category: "Data Science",
+        title: "Nugas.AI",
+        description: "Nugas.AI is an AI-powered study assistant that helps students understand and study their academic documents.",
+        longDescription: "Nugas.AI is an AI-powered study assistant that helps students understand and study their academic documents. Upload a PDF, and get instant summaries, keywords, concept explanations, quizzes, and the ability to chat with your document.",
+        image: "/projects/nugas-ai.png",
+        category: "AI Apps",
         features: [
-            "Data Preprocessing & Cleaning",
-            "Exploratory Data Analysis (EDA)",
-            "Model Training & Evaluation",
-            "Feature Importance Analysis"
+            "📄 PDF Upload: Drag-and-drop interface for uploading academic documents (up to 20 MB)",
+            "🤖 AI Analysis: Automatic extraction of summaries, keywords, and key concepts",
+            "📝 Interactive Quiz: Multiple-choice questions generated from your document",
+            "💬 Document Chat: Ask questions about your document and get AI-powered answers",
+            "🎨 Modern UI: Clean, minimalist design built with TailwindCSS"
         ],
-        techStack: ["Python", "Scikit-learn", "Pandas", "Matplotlib"],
+        techStack: ["Google Gemini 2.0 Flash API","TypeScript", "Next.js", "TailwindCSS", "pdf-parse"],
         links: {
-            github: "https://github.com",
-            demo: "https://demo.com"
+            github: "https://github.com/Chanzwastaken/nugas-ai",
+            demo: "https://nugas-ai.vercel.app/"
         }
     },
     {
         id: "2",
-        title: "Project 2",
-        description: "Analyzing social media sentiment to predict stock market trends.",
-        longDescription: "Built a NLP pipeline to scrape and analyze tweets and news headlines related to major tech stocks. Used BERT and LSTM models to classify sentiment and correlate it with stock price movements. Created a real-time dashboard to visualize sentiment trends.",
-        image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=2000&auto=format&fit=crop",
-        category: "NLP",
+        title: "LLM Dataset Prep and Text Classification GTA VI Comments",
+        description: "A Case Study on GTA VI Trailer 2.",
+        longDescription: "This project demonstrates best practices in creating high-quality datasets for Large Language Model (LLM) training and text classification. It covers the complete pipeline from data collection to model training",
+        image: "/projects/gtallm.png",
+        category: "Data Science",
         features: [
-            "Real-time Data Scraping",
-            "Sentiment Classification (BERT)",
-            "Time Series Analysis",
-            "Interactive Dashboard"
+            "Data Collection via YouTube API v3",
+            "Comprehensive Cleaning & validation pipeline",
+            "Multi-dimensional Labeling with custom Streamlit tool",
+            "Quality Assurance with inter-annotator agreement",
+            "Model Training using DistilBERT",
+            "Professional Documentation and dataset card"
         ],
-        techStack: ["Python", "PyTorch", "Hugging Face", "Streamlit"],
+        techStack: ["Python", "PyTorch", "google-api-python-client", "Hugging Face", "Streamlit"],
         links: {
-            github: "https://github.com"
+            github: "https://github.com/Chanzwastaken/gta-vi-llm"
         }
     },
     {
         id: "3",
-        title: "Project 3",
-        description: "Deep learning model to detect pneumonia from chest X-ray images.",
-        longDescription: "Implemented a Convolutional Neural Network (CNN) to classify chest X-rays as normal or pneumonia-infected. Utilized transfer learning with ResNet50 to improve performance on a limited dataset. The model achieved a sensitivity of 95%.",
-        image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?q=80&w=2070&auto=format&fit=crop",
-        category: "Computer Vision",
+        title: "Data Science Salaries Dashboard",
+        description: "This project provides comprehensive analysis and visualization of data science salaries spanning 2020-2022.",
+        longDescription: "An interactive data visualization and analysis project exploring data science salaries across different experience levels, employment types, company sizes, and geographic locations from 2020-2022.",
+        image: "/projects/dsdashboard.png",
+        category: "Dashboard",
         features: [
-            "Image Augmentation",
-            "Transfer Learning (ResNet50)",
-            "Model Interpretability (Grad-CAM)",
-            "Flask API Deployment"
+            "💰 Average salaries by experience level and employment type",
+            "🏢 Company size distribution and geographic locations",
+            "🌍 Top employee residence locations",
+            "🗺️ Geographic salary visualization by country",
+            "📈 Correlation analysis between key variables"
         ],
-        techStack: ["Python", "TensorFlow", "Keras", "Flask"],
+        techStack: ["Python", "Tableau", "Pandas", "Matplotlib", "Seaborn"],
         links: {
-            github: "https://github.com",
-            demo: "https://demo.com"
+            github: "https://github.com/Chanzwastaken/twb-ds-salaries-dashboard",
+            demo: "https://public.tableau.com/views/DataScienceSalaries2022/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
         }
     },
     {
         id: "4",
-        title: "Project 4",
-        description: "Collaborative filtering system to recommend products to users.",
-        longDescription: "Designed and implemented a recommendation system for an online retail platform. Used matrix factorization and nearest neighbor algorithms to provide personalized product suggestions based on user purchase history and ratings.",
-        image: "https://images.unsplash.com/photo-1472851294608-415522f9631f?q=80&w=2070&auto=format&fit=crop",
-        category: "Data Science",
+        title: "EngliScribe",
+        description: "EngliScribe is an AI-powered web application designed to revolutionize English language learning for Indonesian students.",
+        longDescription: "EngliScribe is an AI-powered web application designed to revolutionize English language learning for Indonesian students. By leveraging cutting-edge Microsoft Azure AI services, we provide an intelligent, accessible, and inclusive platform that helps students improve their English grammar, writing skills, and overall language proficiency.",
+        image: "/projects/engliscribe.png",
+        category: "AI Apps",
         features: [
-            "Collaborative Filtering",
-            "Matrix Factorization",
-            "A/B Testing Framework",
-            "Scalable Architecture"
+            "✨ AI-Powered Grammar Correction - Real-time spelling and grammar checking with accuracy metrics",
+            "🔍 Intelligent OCR - Extract and analyze text from images using Azure Document Intelligence",
+            "♿ Accessibility First - Immersive Reader feature designed for dyslexic learners",
+            "📝 Smart Summarization - AI-driven extractive text summarization",
+            "💬 Interactive Learning - AI chatbot for personalized language learning support",
+            "🎥 Video Analysis - Advanced video indexing and insights (in development)",
+            "📊 Analytics Dashboard - Track progress with Power BI integration"
         ],
-        techStack: ["Python", "Spark", "SQL", "AWS"],
+        techStack: ["Python", "Flask", "OpenCV", "Transformers", "Azure AI Services"],
         links: {
-            github: "https://github.com"
+            github: "https://github.com/Chanzwastaken/engliscribe",
+            demo: "https://www.youtube.com/watch?v=rSCdGNUufy8"
         }
     }
 ];

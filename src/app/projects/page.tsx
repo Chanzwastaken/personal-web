@@ -8,7 +8,7 @@ import { projects } from "@/data/projects";
 import { Project } from "@/types";
 import { cn } from "@/lib/utils";
 
-const categories = ["All", "AI Apps", "Data Analysis", "Data Visualization Dashboard", "Others"];
+const categories = ["All", "AI Apps", "Data Science", "Dashboard", "Others"];
 
 export default function ProjectsPage() {
     const [selectedCategory, setSelectedCategory] = useState("All");

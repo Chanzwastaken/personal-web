@@ -640,6 +640,9 @@ video {
 .left-\[-10\%\] {
   left: -10%;
 }
+.right-0 {
+  right: 0px;
+}
 .right-4 {
   right: 1rem;
 }
@@ -660,9 +663,6 @@ video {
 }
 .top-\[-10\%\] {
   top: -10%;
-}
-.right-0 {
-  right: 0px;
 }
 .-z-10 {
   z-index: -10;
