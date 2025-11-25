@@ -201,4 +201,43 @@ export const projects: Project[] = [
 
         }
     },
+    {
+        id: "11",
+        title: "SILIT",
+        description: "Sign Language Translator",
+        longDescription: "SILIT (Sign Language Translator) is an AI-powered application that translates American Sign Language (ASL) hand signs into text in real-time. Using MediaPipe for hand tracking and a custom-trained neural network, SILIT achieves 90-95% accuracy while running at 30 FPS for smooth, responsive translation.",
+        image: "/projects/silit.png",
+        category: "Data Science",
+        features: [
+            "29 gesture classes: A–Z letters, space, delete, nothing",
+            "Real-time translation: live camera processing, instant recognition, automatic word building, confidence visualization",
+            "Smart prediction: rolling buffer smoothing, duplicate prevention, stability tracking, confidence thresholding",
+            "User interface: hand skeleton view, live predictions, confidence meter, FPS counter, word builder",
+            "Additional features: text-to-speech, keyboard shortcuts, configurable parameters, statistics tracking"
+        ],
+        techStack: ["Python", "MediaPipe", "TensorFlow", "OpenCV", "NumPy", "Pandas", "Matplotlib", "Seaborn"],
+        links: {
+            github: "https://github.com/Chanzwastaken/silit"
+
+        }
+    },
+    {
+        id: "12",
+        title: "Supervision of Payment System Dashboard",
+        description: "Sign Language Translator",
+        longDescription: "This dashboard displays monitoring data for BB UKA and KUPVA BB (money changers) in an easy-to-analyze interactive graph. This dashboard was a project I did while I was an intern at the Jakarta branch of Bank Indonesia.",
+        image: "/projects/bi.png",
+        category: "Dashboard",
+        features: [
+            "Filters based on period, region, and type of business entity",
+            "Transaction trend charts with high interactivity",
+            "Visualizations that can be exported (images or tabular data)",
+            "Ability to export data directly from Power BI for internal reports",
+        ],
+        techStack: ["PowerBI", "Excel", "Power Automate", "SharePoint"],
+        links: {
+            demo: "https://drive.google.com/file/d/11ZSnGIhagjvwDzIpGbj9V4qnkK2SWMbi/view?usp=sharing"
+
+        }
+    },
 ];
