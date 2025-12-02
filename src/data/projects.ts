@@ -23,22 +23,22 @@ export const projects: Project[] = [
     },
     {
         id: "2",
-        title: "LLM Dataset Prep and Text Classification GTA VI Comments",
-        description: "A Case Study on GTA VI Trailer 2.",
-        longDescription: "This project demonstrates best practices in creating high-quality datasets for Large Language Model (LLM) training and text classification. It covers the complete pipeline from data collection to model training",
-        image: "/projects/gtallm.png",
+        title: "SILIT",
+        description: "Sign Language Translator",
+        longDescription: "SILIT (Sign Language Translator) is an AI-powered application that translates American Sign Language (ASL) hand signs into text in real-time. Using MediaPipe for hand tracking and a custom-trained neural network, SILIT achieves 90-95% accuracy while running at 30 FPS for smooth, responsive translation.",
+        image: "/projects/silit.png",
         category: "Data Science",
         features: [
-            "Data Collection via YouTube API v3",
-            "Comprehensive Cleaning & validation pipeline",
-            "Multi-dimensional Labeling with custom Streamlit tool",
-            "Quality Assurance with inter-annotator agreement",
-            "Model Training using DistilBERT",
-            "Professional Documentation and dataset card"
+            "29 gesture classes: A–Z letters, space, delete, nothing",
+            "Real-time translation: live camera processing, instant recognition, automatic word building, confidence visualization",
+            "Smart prediction: rolling buffer smoothing, duplicate prevention, stability tracking, confidence thresholding",
+            "User interface: hand skeleton view, live predictions, confidence meter, FPS counter, word builder",
+            "Additional features: text-to-speech, keyboard shortcuts, configurable parameters, statistics tracking"
         ],
-        techStack: ["Python", "PyTorch", "google-api-python-client", "Hugging Face", "Streamlit"],
+        techStack: ["Python", "MediaPipe", "TensorFlow", "OpenCV", "NumPy", "Pandas", "Matplotlib", "Seaborn"],
         links: {
-            github: "https://github.com/Chanzwastaken/gta-vi-llm"
+            github: "https://github.com/Chanzwastaken/silit"
+
         }
     },
     {
@@ -203,22 +203,22 @@ export const projects: Project[] = [
     },
     {
         id: "11",
-        title: "SILIT",
-        description: "Sign Language Translator",
-        longDescription: "SILIT (Sign Language Translator) is an AI-powered application that translates American Sign Language (ASL) hand signs into text in real-time. Using MediaPipe for hand tracking and a custom-trained neural network, SILIT achieves 90-95% accuracy while running at 30 FPS for smooth, responsive translation.",
-        image: "/projects/silit.png",
+        title: "LLM Dataset Prep and Text Classification GTA VI Comments",
+        description: "A Case Study on GTA VI Trailer 2.",
+        longDescription: "This project demonstrates best practices in creating high-quality datasets for Large Language Model (LLM) training and text classification. It covers the complete pipeline from data collection to model training",
+        image: "/projects/gtallm.png",
         category: "Data Science",
         features: [
-            "29 gesture classes: A–Z letters, space, delete, nothing",
-            "Real-time translation: live camera processing, instant recognition, automatic word building, confidence visualization",
-            "Smart prediction: rolling buffer smoothing, duplicate prevention, stability tracking, confidence thresholding",
-            "User interface: hand skeleton view, live predictions, confidence meter, FPS counter, word builder",
-            "Additional features: text-to-speech, keyboard shortcuts, configurable parameters, statistics tracking"
+            "Data Collection via YouTube API v3",
+            "Comprehensive Cleaning & validation pipeline",
+            "Multi-dimensional Labeling with custom Streamlit tool",
+            "Quality Assurance with inter-annotator agreement",
+            "Model Training using DistilBERT",
+            "Professional Documentation and dataset card"
         ],
-        techStack: ["Python", "MediaPipe", "TensorFlow", "OpenCV", "NumPy", "Pandas", "Matplotlib", "Seaborn"],
+        techStack: ["Python", "PyTorch", "google-api-python-client", "Hugging Face", "Streamlit"],
         links: {
-            github: "https://github.com/Chanzwastaken/silit"
-
+            github: "https://github.com/Chanzwastaken/gta-vi-llm"
         }
     },
     {
@@ -238,6 +238,24 @@ export const projects: Project[] = [
         links: {
             demo: "https://drive.google.com/file/d/11ZSnGIhagjvwDzIpGbj9V4qnkK2SWMbi/view?usp=sharing"
 
+        }
+    },
+    {
+        id: "13",
+        title: "TrustID | AI Identity Verification",
+        description: "A production-grade KYC (Know Your Customer) identity verification system powered by Siamese Neural Networks. Built with Streamlit and PyTorch, featuring a professional fintech-grade UI suitable for portfolio demonstration.",
+        longDescription: "A production-grade KYC (Know Your Customer) identity verification system powered by Siamese Neural Networks. Built with Streamlit and PyTorch, featuring a professional fintech-grade UI suitable for portfolio demonstration.",
+        image: "/projects/kyc.png",
+        category: "Data Science",
+        features: [
+            "Professional custom-styled UI/UX with gradients, responsive layout, hidden Streamlit branding, and visual success feedback",
+            "AI face verification using a Siamese Network, MTCNN detection, InceptionResnetV1 (VGGFace2), 512-D embeddings, and Euclidean similarity scoring",
+            "Production-ready features including cached model loading, multi-face handling, cropped face preview, adjustable threshold, robust error handling, and debug info"
+        ],
+        techStack: ["Streamlit", "PyTorch", "MTCNN", "InceptionResnetV1", "VGGFace2"],
+        links: {
+            demo: "https://kyc-face-id-verification.streamlit.app/",
+            github: "https://github.com/Chanzwastaken/kyc-face-id-verification"
         }
     },
 ];
